@@ -1,4 +1,5 @@
 <RCC>
-    <qresource prefix="QTOSG">
+    <qresource prefix="/QTOSG">
+        <file>Res/加号.png</file>
     </qresource>
 </RCC>
