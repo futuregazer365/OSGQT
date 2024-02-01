@@ -198,6 +198,9 @@ protected:
 		this->getEventQueue()->keyPress(button);
 
 	}
+	/*
+	osg是否已经处理了该事件
+	*/
 	virtual bool event(QEvent *event) {
 		bool handled = QOpenGLWidget::event(event);
 		this->update();
